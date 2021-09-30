@@ -1,5 +1,3 @@
-
-
 public class BankAccount {
     private double checkingBalance = 0.0;
     private double savingBalance = 0.0;
@@ -51,6 +49,7 @@ public class BankAccount {
     }
 
     // CLASS METHODS
+    
     public void depositOrWithdraw(String account, double moneyValue) {
         if (account == "checking") {
             setCheckingBalance(moneyValue);
